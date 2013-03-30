@@ -28,3 +28,6 @@
 [submodule "sublimetext-filehistory"]
 	path = sublimetext-filehistory
 	url = git://github.com/FichteFoll/sublimetext-filehistory.git
+[submodule "GoSublime"]
+	path = GoSublime
+	url = git://github.com/DisposaBoy/GoSublime.git
