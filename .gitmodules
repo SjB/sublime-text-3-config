@@ -52,3 +52,6 @@
 [submodule "SublimeGoogle"]
 	path = SublimeGoogle
 	url = git@github.com:SjB/SublimeGoogle.git
+[submodule "FuzzyFileNav"]
+	path = FuzzyFileNav
+	url = git://github.com/facelessuser/FuzzyFileNav.git
