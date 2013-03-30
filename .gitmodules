@@ -34,3 +34,6 @@
 [submodule "sublime-text-2-git"]
 	path = sublime-text-2-git
 	url = git://github.com/kemayo/sublime-text-2-git.git
+[submodule "sublimetext-markdown-preview"]
+	path = sublimetext-markdown-preview
+	url = git://github.com/michfield/sublimetext-markdown-preview.git
