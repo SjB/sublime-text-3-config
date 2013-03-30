@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+namespace ${1:Namespace}
+{
+	/// <summary>
+	/// $2
+	/// </summary>
+	public class ${TM_FILENAME/.cs//} $3
+	{
+		$4
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pclass</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cs</scope>
+</snippet>

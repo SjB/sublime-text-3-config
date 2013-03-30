@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+		<![CDATA[${1:public} ${2:Type} ${3:PropertyName} { ${4:get}; ${5:set}; }]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>prop</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

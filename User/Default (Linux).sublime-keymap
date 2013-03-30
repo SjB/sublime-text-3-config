@@ -1,0 +1,64 @@
+[
+	{ "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder"},
+	{ "keys": ["ctrl+k", "ctrl+p"], "command": "prompt_open_project"},
+	{ "keys": ["ctrl+.", "ctrl+c"], "command": "gs_commander_open" },
+	{ "keys": ["ctrl+j"], "command": "join_lines" },
+	{ "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false},
+	  "context":
+	  [
+	  		{ "key": "overlay_visible", "operator": "equal", "operand": true }
+	  ]
+	},
+	{ "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true},
+	  "context":
+	  [
+	  		{ "key": "overlay_visible", "operator": "equal", "operand": true }
+	  ]
+	},
+	{ "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false},
+	  "context":
+	  [
+	  		{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
+	  ]
+	},
+	{ "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true},
+	  "context":
+	  [
+	  		{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
+	  ]
+	},
+	{
+		"keys": ["alt+shift+right"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.33, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["alt+shift+left"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.66, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{ "keys": ["g", "t"], "command": "next_view",
+	    "context":
+	    [
+	        { "key": "setting.command_mode", "operand": true },
+	        { "key": "setting.is_widget", "operand": false }
+	    ]
+	},
+	{ "keys": ["g", "T"], "command": "prev_view",
+	    "context":
+	    [
+	        { "key": "setting.command_mode", "operand": true },
+	        { "key": "setting.is_widget", "operand": false }
+	    ]
+	}
+]

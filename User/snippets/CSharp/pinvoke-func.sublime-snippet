@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+		<![CDATA[[DllImport(${1:LibName}, CharSet = ${2:CharSet.Auto})]
+private static extern ${3:Type} ${4:Name}(${5:params});
+	]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dllimport</tabTrigger>
+	<scope>source.cs</scope>
+</snippet>

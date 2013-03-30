@@ -1,0 +1,57 @@
+{
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		".lock-waf*",
+		".tags*",
+		"tags",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		".bzr",
+		"CVS",
+		".waf-*"
+	],
+	"font_face": "Ubuntu Mono",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 11.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"	
+	],
+	"rulers":
+	[
+		72,
+		79
+	],
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true,
+	"vintageex_linux_shell": "bash",
+	"vintageex_linux_terminal": "gnome-terminal"
+}

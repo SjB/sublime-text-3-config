@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[// 
+// ${TM_FILENAME}
+//
+// Author:
+//       SjB <steve@sagacity.ca>
+// 
+// Copyright (c) 2012 Sagacity Solutions Inc
+//
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>copy_sjb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cs</scope>
+</snippet>

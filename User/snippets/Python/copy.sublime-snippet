@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+#!/usr/bin/env python
+# encoding: utf-8
+# Copyright © 2012 ${1:SjB} <${2:steve}@${3:domain}>. All Rights Reserved.
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>copy</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

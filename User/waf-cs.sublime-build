@@ -1,0 +1,33 @@
+{
+	"working_dir": "${project_path}",
+	"cmd": ["${project_path:.}/waf", "build"],
+	"selector": "source.cs",
+	"file_regex": "^\\.*/(.*)\\((\\d+),(\\d+)\\):\\s*(.*)$",
+	"variants":
+	[
+		{
+			"cmd": ["${project_path:.}/waf", "configure"],
+			"name": "Configure"
+		},
+		{
+			"cmd": ["${project_path:.}/waf", "clean"],
+			"name": "Clean"
+		},
+		{
+			"cmd": ["${project_path:.}/waf", "lint"],
+			"name": "Lint"
+		},
+		{
+			"cmd": ["${project_path:.}/waf", "test"],
+			"name": "Run"
+		},
+		{
+			"cmd": ["${project_path:.}/waf", "install"],
+			"name": "Install"
+		},
+		{
+			"cmd": ["${project_path:.}/waf", "nunit"],
+			"name": "nunit"
+		}
+	]
+}
