@@ -7,3 +7,6 @@
 [submodule "ADBView"]
 	path = ADBView
 	url = git://github.com/quarnster/ADBView.git
+[submodule "Sublime-AdvancedNewFile"]
+	path = Sublime-AdvancedNewFile
+	url = git://github.com/skuroda/Sublime-AdvancedNewFile.git
