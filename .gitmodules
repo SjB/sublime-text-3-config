@@ -31,3 +31,6 @@
 [submodule "GoSublime"]
 	path = GoSublime
 	url = git://github.com/DisposaBoy/GoSublime.git
+[submodule "sublime-text-2-git"]
+	path = sublime-text-2-git
+	url = git://github.com/kemayo/sublime-text-2-git.git
