@@ -10,3 +10,6 @@
 [submodule "Sublime-AdvancedNewFile"]
 	path = Sublime-AdvancedNewFile
 	url = git://github.com/skuroda/Sublime-AdvancedNewFile.git
+[submodule "CompleteSharp"]
+	path = CompleteSharp
+	url = git://github.com/quarnster/CompleteSharp.git
