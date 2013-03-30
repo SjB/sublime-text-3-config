@@ -37,3 +37,6 @@
 [submodule "sublimetext-markdown-preview"]
 	path = sublimetext-markdown-preview
 	url = git://github.com/michfield/sublimetext-markdown-preview.git
+[submodule "Origami"]
+	path = Origami
+	url = https://github.com/SublimeText/Origami.git
