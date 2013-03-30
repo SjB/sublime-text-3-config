@@ -49,3 +49,6 @@
 [submodule "GitGutter"]
 	path = GitGutter
 	url = git://github.com/jisaacks/GitGutter.git
+[submodule "SublimeGoogle"]
+	path = SublimeGoogle
+	url = git@github.com:SjB/SublimeGoogle.git
