@@ -1,3 +1,6 @@
 [submodule "Vintageous"]
 	path = Vintageous
 	url = git://github.com/guillermooo/Vintageous.git
+[submodule "Wind"]
+	path = Wind
+	url = git://github.com/phyllisstein/Wind.git
