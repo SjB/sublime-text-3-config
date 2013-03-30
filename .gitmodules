@@ -1,0 +1,3 @@
+[submodule "Vintageous"]
+	path = Vintageous
+	url = git://github.com/guillermooo/Vintageous.git
