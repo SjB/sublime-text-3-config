@@ -46,3 +46,6 @@
 [submodule "OmniMarkupPreviewer"]
 	path = OmniMarkupPreviewer
 	url = git://github.com/timonwong/OmniMarkupPreviewer.git
+[submodule "GitGutter"]
+	path = GitGutter
+	url = git://github.com/jisaacks/GitGutter.git
