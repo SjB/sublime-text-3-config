@@ -43,3 +43,6 @@
 [submodule "Open-Include"]
 	path = Open-Include
 	url = git://github.com/SublimeText/Open-Include.git
+[submodule "OmniMarkupPreviewer"]
+	path = OmniMarkupPreviewer
+	url = git://github.com/timonwong/OmniMarkupPreviewer.git
