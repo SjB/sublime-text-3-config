@@ -13,3 +13,6 @@
 [submodule "CompleteSharp"]
 	path = CompleteSharp
 	url = git://github.com/quarnster/CompleteSharp.git
+[submodule "CursorRuler"]
+	path = CursorRuler
+	url = git://github.com/icylace/CursorRuler.git
