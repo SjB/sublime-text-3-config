@@ -16,3 +16,6 @@
 [submodule "CursorRuler"]
 	path = CursorRuler
 	url = git://github.com/icylace/CursorRuler.git
+[submodule "editorconfig-sublime"]
+	path = editorconfig-sublime
+	url = git://github.com/sindresorhus/editorconfig-sublime.git
