@@ -40,3 +40,6 @@
 [submodule "Origami"]
 	path = Origami
 	url = https://github.com/SublimeText/Origami.git
+[submodule "Open-Include"]
+	path = Open-Include
+	url = git://github.com/SublimeText/Open-Include.git
