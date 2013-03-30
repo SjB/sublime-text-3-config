@@ -4,3 +4,6 @@
 [submodule "Wind"]
 	path = Wind
 	url = git://github.com/phyllisstein/Wind.git
+[submodule "ADBView"]
+	path = ADBView
+	url = git://github.com/quarnster/ADBView.git
