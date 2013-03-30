@@ -22,3 +22,6 @@
 [submodule "GenerateUUID"]
 	path = GenerateUUID
 	url = git://github.com/SublimeText/GenerateUUID.git
+[submodule "FindKeyConflicts"]
+	path = FindKeyConflicts
+	url = git://github.com/skuroda/FindKeyConflicts.git
