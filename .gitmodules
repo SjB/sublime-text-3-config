@@ -25,3 +25,6 @@
 [submodule "FindKeyConflicts"]
 	path = FindKeyConflicts
 	url = git://github.com/skuroda/FindKeyConflicts.git
+[submodule "sublimetext-filehistory"]
+	path = sublimetext-filehistory
+	url = git://github.com/FichteFoll/sublimetext-filehistory.git
