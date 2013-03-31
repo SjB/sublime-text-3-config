@@ -1,4 +1,5 @@
 {
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -43,7 +44,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"	
+		"Vintage"
 	],
 	"rulers":
 	[
