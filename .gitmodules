@@ -55,3 +55,6 @@
 [submodule "FuzzyFileNav"]
 	path = FuzzyFileNav
 	url = git://github.com/facelessuser/FuzzyFileNav.git
+[submodule "VintageousEx"]
+	path = VintageousEx
+	url = git://github.com/guillermooo/VintageousEx.git
