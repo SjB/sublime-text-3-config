@@ -55,3 +55,6 @@
 [submodule "VintageousEx"]
 	path = VintageousEx
 	url = git://github.com/guillermooo/VintageousEx.git
+[submodule "sublime-strapdown-preview"]
+	path = sublime-strapdown-preview
+	url = git://github.com/michfield/sublime-strapdown-preview.git
