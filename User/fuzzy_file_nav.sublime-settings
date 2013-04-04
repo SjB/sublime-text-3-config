@@ -1,6 +1,9 @@
 {
-	"debug": true,
+	"debug": false,
 	"bookmarks": [
-		{"name": "Notes", "path": "{home}/Dropbox/Notes"}
+		{"name": "Notes", "path": "/home/steve/Dropbox/Notes"},
+		{"name": "Sublime User", "path": "/home/steve/.config/sublime-text-3/Packages/User"},
+		{"name": "Sublime Packages", "path": "/home/steve/.config/sublime-text-3/Packages"}
+
 	]
 }
