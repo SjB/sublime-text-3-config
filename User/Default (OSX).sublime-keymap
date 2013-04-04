@@ -2,31 +2,6 @@
 	{ "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder"},
 	{ "keys": ["ctrl+.", "ctrl+c"], "command": "gs_commander_open"},
 	{ "keys": ["ctrl+j"], "command": "join_lines" },
-	{ "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false},
-	  "context":
-	  [
-	  		{ "key": "overlay_visible", "operator": "equal", "operand": true }
-	  ]
-	},
-	{ "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true},
-	  "context":
-	  [
-	  		{ "key": "overlay_visible", "operator": "equal", "operand": true }
-	  ]
-	},
-	{ "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false},
-	  "context":
-	  [
-	  		{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
-	  ]
-
-	},
-	{ "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true},
-	  "context":
-	  [
-	  		{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
-	  ]
-	},
 	{
 		"keys": ["alt+super+shift+right"],
 		"command": "set_layout",
@@ -60,5 +35,11 @@
 			{ "key": "setting.command_mode", "operand": true },
 			{ "key": "setting.is_widget", "operand": false }
 		]
+	}
+	{
+		"keys": ["ctrl+k", "ctrl+f"], "command": "fuzzy_start_from_file"
+	},
+	{
+		"keys": ["ctrk+k", "ctrl+shift+f"], "command": "fuzzy_bookmarks_load"
 	}
 ]
