@@ -44,7 +44,10 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Vintageous",
+		"VintageousEx",
+		"OmniMarkupPreviewer"
 	],
 	"rulers":
 	[
