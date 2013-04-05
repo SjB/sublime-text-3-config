@@ -1,0 +1,7 @@
+{
+	"env": {
+		"GOROOT": "$HOME/Tools/go",
+		"PATH": "$GOROOT/bin:$PATH",
+		"GOPATH": "$HOME/Projects/gocode"
+	}
+}
