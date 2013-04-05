@@ -1,6 +1,6 @@
 [
-	{ "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder"},
-	{ "keys": ["ctrl+k", "ctrl+p"], "command": "prompt_open_project"},
+	{ "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder" },
+	{ "keys": ["ctrl+k", "ctrl+p"], "command": "prompt_open_project" },
 	{ "keys": ["ctrl+.", "ctrl+c"], "command": "gs_commander_open" },
 	{ "keys": ["ctrl+j"], "command": "join_lines" },
 	{
@@ -37,10 +37,11 @@
 	        { "key": "setting.is_widget", "operand": false }
 	    ]
 	},
-	{
-		"keys": ["ctrl+k", "ctrl+f"], "command": "fuzzy_start_from_file"
-	},
-	{
-		"keys": ["ctrl+k", "ctrl+shift+f"], "command": "fuzzy_bookmarks_load"
-	}
+	{ "keys": ["ctrl+k", "ctrl+f"], "command": "fuzzy_start_from_file" },
+	{ "keys": ["ctrl+k", "ctrl+shift+f"], "command": "fuzzy_bookmarks_load" },
+	// Missing GitGutter Keymap
+	{ "keys": ["ctrl+shift+alt+j"], "command": "git_gutter_next_change" },
+    { "keys": ["ctrl+shift+alt+k"], "command": "git_gutter_prev_change" },
+    //File History
+    { "keys": ["ctrl+shift+t"],       "command": "open_recently_closed_file" },
 ]
