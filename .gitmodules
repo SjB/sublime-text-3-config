@@ -61,3 +61,6 @@
 [submodule "dart-sublime-bundle"]
 	path = dart-sublime-bundle
 	url = https://github.com/dart-lang/dart-sublime-bundle.git
+[submodule "Stino"]
+	path = Stino
+	url = git://github.com/Robot-Will/Stino.git
