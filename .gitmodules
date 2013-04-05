@@ -58,3 +58,6 @@
 [submodule "sublime-strapdown-preview"]
 	path = sublime-strapdown-preview
 	url = git://github.com/michfield/sublime-strapdown-preview.git
+[submodule "dart-sublime-bundle"]
+	path = dart-sublime-bundle
+	url = https://github.com/dart-lang/dart-sublime-bundle.git
