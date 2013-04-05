@@ -35,7 +35,6 @@
 		"CVS",
 		".waf-*"
 	],
-	"font_size": 11.0,
 	"font_face": "Ubuntu Mono",
 	"font_options":
 	[
@@ -49,20 +48,16 @@
 		"OmniMarkupPreviewer",
 		"Stino"
 	],
-	"rulers":
-	[
-		72,
-		79
-	],
+	"rulers": [72, 79 ],
 	"caret_style": "smooth",
 	"draw_minimap_border": false,
 	//"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
+	"trim_trailing_white_space_on_save": true,
 	"gutter": true,
 	"highlight_line": true,
 	"tab_completion": true,
 	"use_tab_stops": true,
-	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
 	"vintageex_linux_shell": "bash",
 	"vintageex_linux_terminal": "gnome-terminal"
