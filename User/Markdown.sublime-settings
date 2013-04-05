@@ -1,0 +1,10 @@
+{
+	"extensions":
+	[
+		"md",
+		"mdown",
+		"mdwn",
+		"mmd",
+		"txt"
+	]
+}
