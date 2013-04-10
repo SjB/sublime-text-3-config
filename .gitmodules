@@ -64,3 +64,6 @@
 [submodule "Stino"]
 	path = Stino
 	url = git://github.com/Robot-Will/Stino.git
+[submodule "SublimeREPL"]
+	path = SublimeREPL
+	url = git://github.com/wuub/SublimeREPL.git
