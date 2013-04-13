@@ -1,6 +1,6 @@
 [
-	{ "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder"},
-	{ "keys": ["ctrl+.", "ctrl+c"], "command": "gs_commander_open"},
+	{ "keys": ["super+k", "ctrl+o"], "command": "prompt_open_folder"},
+	{ "keys": ["super+.", "ctrl+c"], "command": "gs_commander_open"},
 	{ "keys": ["ctrl+j"], "command": "join_lines" },
 	{
 		"keys": ["alt+super+shift+right"],
@@ -36,14 +36,13 @@
 			{ "key": "setting.is_widget", "operand": false }
 		]
 	}
-	{
-		"keys": ["ctrl+k", "ctrl+f"], "command": "fuzzy_start_from_file"
-	},
-	{
-		"keys": ["ctrk+k", "ctrl+shift+f"], "command": "fuzzy_bookmarks_load"
-	},
-	//SublimeSurround
-    { "keys": ["ctrl+k", "ctrl+c"], "command": "surround_change"},
-    { "keys": ["ctrl+k", "ctrl+s"], "command": "surround_selection"},
-    { "keys": ["ctrl+k", "ctrl+d"], "command": "surround_delete"}
+	{"keys": ["super+k", "super+f"], "command": "fuzzy_start_from_file"},
+	{"keys": ["super+k", "super+shift+f"], "command": "fuzzy_bookmarks_load"},
+	// SublimeSurround
+	{ "keys": ["super+k", "super+c"], "command": "surround_change"},
+	{ "keys": ["super+k", "super+s"], "command": "surround_selection"},
+	{ "keys": ["super+k", "super+d"], "command": "surround_delete"},
+	// Sublime Terminal
+	{ "keys": ["super+k", "super+shift+t"], "command": "open_terminal" },
+	{ "keys": ["super+k", "super+shift+alt+t"], "command": "open_terminal_project_folder" }
 ]
