@@ -64,3 +64,6 @@
 [submodule "Stino"]
 	path = Stino
 	url = git://github.com/Robot-Will/Stino.git
+[submodule "sublime-surround"]
+	path = sublime-surround
+	url = git://github.com/jcartledge/sublime-surround.git

@@ -41,5 +41,9 @@
 	},
 	{
 		"keys": ["ctrk+k", "ctrl+shift+f"], "command": "fuzzy_bookmarks_load"
-	}
+	},
+	//SublimeSurround
+    { "keys": ["ctrl+k", "ctrl+c"], "command": "surround_change"},
+    { "keys": ["ctrl+k", "ctrl+s"], "command": "surround_selection"},
+    { "keys": ["ctrl+k", "ctrl+d"], "command": "surround_delete"}
 ]
