@@ -50,5 +50,5 @@
     { "keys": ["ctrl+k", "ctrl+d"], "command": "surround_delete"},
     //Sublime Terminal
     { "keys": ["ctrl+k", "ctrl+shift+t"], "command": "open_terminal"},
-    { "keys": ["ctrl+l", "ctrl+shift+alt+t"], "command": "open_terminal_project_folder" }
+    { "keys": ["ctrl+k", "ctrl+shift+alt+t"], "command": "open_terminal_project_folder" }
 ]
