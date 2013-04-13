@@ -47,5 +47,8 @@
     //SublimeSurround
     { "keys": ["ctrl+k", "ctrl+c"], "command": "surround_change"},
     { "keys": ["ctrl+k", "ctrl+s"], "command": "surround_selection"},
-    { "keys": ["ctrl+k", "ctrl+d"], "command": "surround_delete"}
+    { "keys": ["ctrl+k", "ctrl+d"], "command": "surround_delete"},
+    //Sublime Terminal
+    { "keys": ["ctrl+k", "ctrl+shift+t"], "command": "open_terminal"},
+    { "keys": ["ctrl+l", "ctrl+shift+alt+t"], "command": "open_terminal_project_folder" }
 ]

@@ -64,6 +64,12 @@
 [submodule "Stino"]
 	path = Stino
 	url = git://github.com/Robot-Will/Stino.git
+[submodule "CTags"]
+	path = CTags
+	url = git://github.com/SublimeText/CTags.git
 [submodule "sublime-surround"]
 	path = sublime-surround
 	url = git://github.com/jcartledge/sublime-surround.git
+[submodule "sublime_terminal"]
+	path = sublime_terminal
+	url = git://github.com/kevinsperrine/sublime_terminal.git
