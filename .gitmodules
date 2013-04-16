@@ -73,3 +73,6 @@
 [submodule "sublime_terminal"]
 	path = sublime_terminal
 	url = git://github.com/kevinsperrine/sublime_terminal.git
+[submodule "SublimeAStyleFormatter"]
+	path = SublimeAStyleFormatter
+	url = https://github.com/timonwong/SublimeAStyleFormatter.git
