@@ -1,5 +1,8 @@
 {
+	"caret_style": "smooth",
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+	"draw_minimap_border": false,
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -40,6 +43,9 @@
 	[
 		"subpixel_antialias"
 	],
+	"font_size": 12,
+	"gutter": true,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage",
@@ -48,15 +54,13 @@
 		"OmniMarkupPreviewer",
 		"Stino"
 	],
-	"rulers": [72, 79 ],
-	"caret_style": "smooth",
-	"draw_minimap_border": false,
-	//"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": true,
-	"trim_trailing_white_space_on_save": true,
-	"gutter": true,
-	"highlight_line": true,
+	"rulers":
+	[
+		72,
+		79
+	],
 	"tab_completion": true,
+	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"vintage_start_in_command_mode": true,
 	"vintageex_linux_shell": "bash",
