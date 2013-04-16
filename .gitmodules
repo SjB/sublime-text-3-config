@@ -76,3 +76,6 @@
 [submodule "SublimeREPL"]
 	path = SublimeREPL
 	url = git://github.com/wuub/SublimeREPL.git
+[submodule "SublimeAStyleFormatter"]
+	path = SublimeAStyleFormatter
+	url = https://github.com/timonwong/SublimeAStyleFormatter.git
