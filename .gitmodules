@@ -82,3 +82,6 @@
 [submodule "BracketHighlighter"]
 	path = BracketHighlighter
 	url = git://github.com/facelessuser/BracketHighlighter.git
+[submodule "Modific"]
+	path = Modific
+	url = git://github.com/gornostal/Modific.git
