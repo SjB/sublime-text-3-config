@@ -79,3 +79,6 @@
 [submodule "SublimeAStyleFormatter"]
 	path = SublimeAStyleFormatter
 	url = https://github.com/timonwong/SublimeAStyleFormatter.git
+[submodule "BracketHighlighter"]
+	path = BracketHighlighter
+	url = git://github.com/facelessuser/BracketHighlighter.git
