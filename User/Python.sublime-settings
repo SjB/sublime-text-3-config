@@ -1,0 +1,5 @@
+{
+	"translate_tabs_to_spaces": true,
+	"auto_complete_triggers": [{"selector": "source.python", "characters": "."}],
+	"rulers": [72, 79]
+}
