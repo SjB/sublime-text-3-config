@@ -1,15 +1,21 @@
 {
-	"autoformat_on_save": true,
+	"autoformat_on_save": false,
 	"options_default": {
         	"style": "otbs",
         	"indent-namespaces": true,
+            "indent-classes": true,
+            "indent-switch": true,
+            "indent-labels": true,
         	"indent-preprocessor": true,
         	"indent-col1-comment": true,
+            "indent": "force-tab",
         	"break-blocks": false,
         	"pad-oper": true,
         	"pad-header": true,
         	"add-bracket": true,
-//        	"break-closing-brackets": true,
+            "close-templates": true,
+            "break-after-logical": true,
+        	"break-closing-brackets": true,
         	"align-pointer": "name",
         	"lineend": "windows"
     }
