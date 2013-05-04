@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[#region Using directives
+
+using System;
+using System.Reflection;
+using System.Runtime.InteropServices;
+
+#endregion
+
+// General Information about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("${1:Title}")]
+[assembly: AssemblyDescription("$2")]
+[assembly: AssemblyConfiguration("$3")]
+[assembly: AssemblyCompany("$4")]
+[assembly: AssemblyProduct("$5")]
+[assembly: AssemblyCopyright("$6")]
+[assembly: AssemblyTrademark("$7")]
+[assembly: AssemblyCulture("$8")]
+
+// This sets the default COM visibility of types in the assembly to invisible.
+// If you need to expose a type to COM, use [ComVisible(true)] on that type.
+[assembly: ComVisible(false)]
+
+// The assembly version has following format :
+//
+// Major.Minor.Build.Revision
+//
+// You can specify all the values or you can use the default the Revision and
+// Build Numbers by using the '*' as shown below:
+[assembly: AssemblyVersion("$9")]
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>assembly</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cs</scope>
+</snippet>

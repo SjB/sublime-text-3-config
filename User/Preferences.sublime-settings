@@ -4,6 +4,9 @@
 	"draw_minimap_border": false,
 	"enable_telemetry": true,
 	"ensure_newline_at_eof_on_save": true,
+	"bold_folder_labels": true,
+	"close_windows_when_empty": true,
+	"find_selected_text": true,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -47,6 +50,8 @@
 	"font_size": 11,
 	"gutter": true,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"show_full_path": true,
 	"ignored_packages":
 	[
 		"Vintage",
@@ -55,6 +60,7 @@
 		"OmniMarkupPreviewer",
 		"Stino",
 		"CTags"
+		"GitGutter"
 	],
 	"rulers":
 	[

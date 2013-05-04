@@ -73,6 +73,15 @@
 [submodule "sublime_terminal"]
 	path = sublime_terminal
 	url = git://github.com/kevinsperrine/sublime_terminal.git
+[submodule "SublimeREPL"]
+	path = SublimeREPL
+	url = git://github.com/wuub/SublimeREPL.git
 [submodule "SublimeAStyleFormatter"]
 	path = SublimeAStyleFormatter
 	url = https://github.com/timonwong/SublimeAStyleFormatter.git
+[submodule "BracketHighlighter"]
+	path = BracketHighlighter
+	url = git://github.com/facelessuser/BracketHighlighter.git
+[submodule "Modific"]
+	path = Modific
+	url = git://github.com/gornostal/Modific.git
