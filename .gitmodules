@@ -85,3 +85,6 @@
 [submodule "Modific"]
 	path = Modific
 	url = git://github.com/gornostal/Modific.git
+[submodule "sublime-text-2-goto-documentation"]
+	path = sublime-text-2-goto-documentation
+	url = git://github.com/SjB/sublime-text-2-goto-documentation
