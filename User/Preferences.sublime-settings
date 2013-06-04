@@ -60,7 +60,8 @@
 		"OmniMarkupPreviewer",
 		"Stino",
 		"CTags",
-		"GitGutter"
+		"GitGutter",
+		"SublimeAStyleFormatter"
 	],
 	"rulers":
 	[
