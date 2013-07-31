@@ -2,6 +2,7 @@
 	"debug": false,
 	"bookmarks": [
 		{"name": "Notes", "path": "/home/steve/Dropbox/Notes"},
+		{"name": "Home", "path": "/home/steve"},
 		{"name": "Sublime User", "path": "/home/steve/.config/sublime-text-3/Packages/User"},
 		{"name": "Sublime Packages", "path": "/home/steve/.config/sublime-text-3/Packages"},
 		{"name": "Project Folder", "path": "/home/steve/Dropbox/sublime-projects"},
