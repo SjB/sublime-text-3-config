@@ -85,3 +85,6 @@
 [submodule "sublime-text-2-goto-documentation"]
 	path = sublime-text-2-goto-documentation
 	url = git://github.com/SjB/sublime-text-2-goto-documentation
+[submodule "lessTabs"]
+	path = lessTabs
+	url = https://github.com/webArtisan/lessTabs.git
