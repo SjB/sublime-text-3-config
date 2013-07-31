@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+		<![CDATA["settings":
+{
+	$1
+}]]>
+	</content>
+	<tabTrigger>settings</tabTrigger>
+	<scope>source.json</scope>
+</snippet>

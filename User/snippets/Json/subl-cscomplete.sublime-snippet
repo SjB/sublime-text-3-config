@@ -1,0 +1,13 @@
+<snippet>
+	<content>
+		<![CDATA["completesharp_assemblies":
+[
+    "${project_path:/build/*.dll}",
+    "${project_path:/build/**/*.dll}",
+    "/usr/lib/cli/**/*.dll",
+    "/home/steve/Projects/cscode/pkgs/lib/Eto-dev/Release"$1
+]]]>
+	</content>
+	<tabTrigger>cscomplete</tabTrigger>
+	<scope>source.json</scope>
+</snippet>
