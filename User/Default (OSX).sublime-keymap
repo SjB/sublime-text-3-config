@@ -2,6 +2,7 @@
 	{ "keys": ["super+k", "ctrl+o"], "command": "prompt_open_folder"},
 	{ "keys": ["super+.", "ctrl+c"], "command": "gs_commander_open"},
 	{ "keys": ["ctrl+j"], "command": "join_lines" },
+	{ "keys": ["ctrl+k", "ctrl+w"], "command": "close_all" },
 	{
 		"keys": ["alt+super+shift+right"],
 		"command": "set_layout",
@@ -45,4 +46,14 @@
 	// Sublime Terminal
 	{ "keys": ["super+k", "super+shift+t"], "command": "open_terminal" },
 	{ "keys": ["super+k", "super+shift+alt+t"], "command": "open_terminal_project_folder" }
+
+    //Sublime MarkAndMove
+    { "keys": ["ctrl+shift+tab"], "command": "mark_and_move_window_select" },
+	{ "keys": ["ctrl+tab"], "command": "mark_and_move_window_toggle" },
+	{ "keys": ["ctrl+m"], "command": "mark_and_move_do_it_all" },
+	{ "keys": ["alt+m"], "command": "mark_and_move_next" },
+	{ "keys": ["alt+shift+m"], "command": "mark_and_move_prev" },
+	{ "keys": ["ctrl+shift+m"], "command": "mark_and_move_recall" },
+	{ "keys": ["ctrl+alt+m"], "command": "mark_and_move_clear" }
+
 ]
