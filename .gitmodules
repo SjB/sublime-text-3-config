@@ -94,3 +94,6 @@
 [submodule "SublimeMarkAndMove"]
 	path = SublimeMarkAndMove
 	url = https://github.com/colinta/SublimeMarkAndMove.git
+[submodule "SublimeTmpl"]
+	path = SublimeTmpl
+	url = https://github.com/kairyou/SublimeTmpl.git
