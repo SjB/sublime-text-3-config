@@ -91,3 +91,6 @@
 [submodule "emmet-sublime"]
 	path = emmet-sublime
 	url = https://github.com/sergeche/emmet-sublime.git
+[submodule "SublimeMarkAndMove"]
+	path = SublimeMarkAndMove
+	url = https://github.com/colinta/SublimeMarkAndMove.git
