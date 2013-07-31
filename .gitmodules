@@ -88,3 +88,6 @@
 [submodule "lessTabs"]
 	path = lessTabs
 	url = https://github.com/webArtisan/lessTabs.git
+[submodule "emmet-sublime"]
+	path = emmet-sublime
+	url = https://github.com/sergeche/emmet-sublime.git
