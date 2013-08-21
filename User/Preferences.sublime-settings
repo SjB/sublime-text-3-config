@@ -1,12 +1,11 @@
 {
+	"bold_folder_labels": true,
 	"caret_style": "smooth",
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
 	"draw_minimap_border": false,
 	"enable_telemetry": true,
 	"ensure_newline_at_eof_on_save": true,
-	"bold_folder_labels": true,
-	"close_windows_when_empty": true,
-	"find_selected_text": true,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -33,6 +32,7 @@
 		"tags",
 		"*.sublime-workspace"
 	],
+	"find_selected_text": true,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -47,14 +47,13 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 11,
+	"font_size": 13,
 	"gutter": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"show_full_path": true,
 	"ignored_packages":
 	[
-		"Vintage",
+/*		"Vintage", */
 		"Vintageous",
 		"VintageousEx",
 		"OmniMarkupPreviewer",
@@ -68,6 +67,7 @@
 		72,
 		79
 	],
+	"show_full_path": true,
 	"tab_completion": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
