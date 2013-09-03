@@ -1,9 +1,6 @@
 [
-	{ "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder" },
-	{ "keys": ["ctrl+k", "ctrl+p"], "command": "prompt_open_project" },
 	{ "keys": ["ctrl+.", "ctrl+c"], "command": "gs_commander_open" },
-	{ "keys": ["ctrl+k", "ctrl+w"], "command": "close_all" },
-	{ "keys": ["ctrl+k", "ctrl+r"], "command": "goto_symbol_in_project"},
+
 	{ "keys": ["ctrl+j"], "command": "join_lines" },
 	{
 		"keys": ["alt+shift+right"],
@@ -39,27 +36,59 @@
 	        { "key": "setting.is_widget", "operand": false }
 	    ]
 	},
+
+	// Default functions
+	{ "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder" },
+	{ "keys": ["ctrl+k", "ctrl+p"], "command": "prompt_open_project" },
+	{ "keys": ["ctrl+k", "ctrl+q"], "command": "close_window"},
+	{ "keys": ["ctrl+k", "ctrl+w"], "command": "close_all" },
+	{ "keys": ["ctrl+k", "ctrl+r"], "command": "goto_symbol_in_project"},
+
+	// fuzzy file nav
 	{ "keys": ["ctrl+k", "ctrl+f"], "command": "fuzzy_start_from_file" },
 	{ "keys": ["ctrl+k", "ctrl+shift+f"], "command": "fuzzy_bookmarks_load" },
+
 	// Missing GitGutter Keymap
 	{ "keys": ["ctrl+shift+alt+j"], "command": "git_gutter_next_change" },
     { "keys": ["ctrl+shift+alt+k"], "command": "git_gutter_prev_change" },
+
     //File History
-    { "keys": ["ctrl+shift+t"], "command": "open_recently_closed_file" },
+	{ "keys": ["ctrl+k", "ctrl+shift+t"],     "command": "open_recently_closed_file", "args": {"show_quick_panel": false} },
+	{ "keys": ["ctrl+k", "ctrl+alt+c"],       "command": "open_recently_closed_file" },
+	{ "keys": ["ctrl+k", "ctrl+alt+shift+t"], "command": "open_recently_closed_file", "args": {"current_project_only": false} },
+	{ "keys": ["ctrl+k", "ctrl+alt+shift+c"], "command": "cleanup_file_history",      "args": {"current_project_only": false} },
+
     //SublimeSurround
     { "keys": ["ctrl+k", "ctrl+c"], "command": "surround_change"},
     { "keys": ["ctrl+k", "ctrl+s"], "command": "surround_selection"},
     { "keys": ["ctrl+k", "ctrl+d"], "command": "surround_delete"},
-    //Sublime Terminal
-    { "keys": ["ctrl+k", "ctrl+shift+t"], "command": "open_terminal"},
-    { "keys": ["ctrl+k", "ctrl+shift+alt+t"], "command": "open_terminal_project_folder" },
 
     //Sublime MarkAndMove
-    { "keys": ["ctrl+shift+tab"], "command": "mark_and_move_window_select" },
-	{ "keys": ["ctrl+tab"], "command": "mark_and_move_window_toggle" },
-	{ "keys": ["ctrl+m"], "command": "mark_and_move_do_it_all" },
-	{ "keys": ["alt+m"], "command": "mark_and_move_next" },
-	{ "keys": ["alt+shift+m"], "command": "mark_and_move_prev" },
-	{ "keys": ["ctrl+shift+m"], "command": "mark_and_move_recall" },
-	{ "keys": ["ctrl+alt+m"], "command": "mark_and_move_clear" }
+    { "keys": ["ctrl+k", "ctrl+shift+tab"], "command": "mark_and_move_window_select" },
+	{ "keys": ["ctrl+k", "ctrl+tab"], "command": "mark_and_move_window_toggle" },
+	{ "keys": ["ctrl+k", "ctrl+m"], "command": "mark_and_move_do_it_all" },
+	{ "keys": ["ctrl+k", "alt+m"], "command": "mark_and_move_next" },
+	{ "keys": ["ctrl+k", "alt+shift+m"], "command": "mark_and_move_prev" },
+	{ "keys": ["ctrl+k", "ctrl+shift+m"], "command": "mark_and_move_recall" },
+	{ "keys": ["ctrl+k", "ctrl+alt+m"], "command": "mark_and_move_clear" },
+
+	//Modific
+	{ "keys": ["ctrl+k", "ctrl+alt+c"], "command": "show_original_part" },
+    { "keys": ["ctrl+k", "ctrl+alt+r"], "command": "replace_modified_part" },
+    { "keys": ["ctrl+k", "ctrl+alt+d"], "command": "show_diff" },
+    { "keys": ["ctrl+k", "ctrl+alt+u"], "command": "uncommitted_files" },
+    { "keys": ["ctrl+k", "ctrl+shift+pageup"], "command": "jump_between_changes", "args": {"direction": "prev"} },
+    { "keys": ["ctrl+k", "ctrl+shift+pagedown"], "command": "jump_between_changes", "args": {"direction": "next"} },
+
+	{ "keys": ["ctrl+k", "alt+d"], "command": "open_include"},
+
+    // Terminal
+    { "keys": ["ctrl+,", "ctrl+shift+t"], "command": "open_terminal" },
+	{ "keys": ["ctrl+,", "ctrl+shift+alt+t"], "command": "open_terminal_project_folder" },
+
+	// Less Tabs
+	{"keys": ["ctrl+,", "ctrl+alt+c"], "command": "less_tabs"},
+    {"keys": ["ctrl+,", "ctrl+alt+u+p"], "command": "less_tabs_close_project_unrelated"},
+    {"keys": ["ctrl+,", "ctrl+alt+u+t"], "command": "less_tabs_close_file_dir_unrelated"},
+    {"keys": ["ctrl+,", "ctrl+alt+u+d"], "command": "less_tabs_close_dir_unrelated"}
 ]
