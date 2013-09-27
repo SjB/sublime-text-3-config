@@ -36,7 +36,22 @@
 	        { "key": "setting.is_widget", "operand": false }
 	    ]
 	},
-
+	{
+		"keys": ["ctrl+k","ctrl+shift+g"],
+		"command": "google_search_input",
+		"context":
+		[
+			{"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true}
+		]
+	},
+	{
+		"keys": ["ctrl+k", "ctrl+shift+g"],
+		"command": "google_search_selection",
+		"context":
+		[
+			{"key": "selection_empty", "operator": "equal", "operand": false }
+		]
+	},
 	// Default functions
 	{ "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder" },
 	{ "keys": ["ctrl+k", "ctrl+p"], "command": "prompt_open_project" },
