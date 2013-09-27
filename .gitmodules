@@ -97,3 +97,6 @@
 [submodule "SublimeTmpl"]
 	path = SublimeTmpl
 	url = https://github.com/kairyou/SublimeTmpl.git
+[submodule "sublime-github"]
+	path = sublime-github
+	url = https://github.com/bgreenlee/sublime-github.git
