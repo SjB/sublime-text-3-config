@@ -52,6 +52,22 @@
 			{"key": "selection_empty", "operator": "equal", "operand": false }
 		]
 	},
+	{
+		"keys": ["ctrl+shift+g", "ctrl+n"],
+		"command": "google_search_selection",
+		"args":
+        {
+            "category" : "csharp"
+        }
+	},
+	{
+		"keys": ["ctrl+shift+g", "ctrl+c"],
+		"command": "google_search_selection",
+		"args":
+        {
+            "category" : "searchcode"
+        }
+	},
 	// Default functions
 	{ "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder" },
 	{ "keys": ["ctrl+k", "ctrl+p"], "command": "prompt_open_project" },
