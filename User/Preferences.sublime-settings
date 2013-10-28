@@ -54,13 +54,14 @@
 	"ignored_packages":
 	[
 		"Vintage",
-//		"Vintageous",
+		"Vintageous",
 		"VintageousEx",
 		"OmniMarkupPreviewer",
 		"Stino",
 		"CTags",
 		"GitGutter",
-		"SublimeAStyleFormatter"
+		"SublimeAStyleFormatter",
+		"emmet-sublime"
 	],
 	"rulers":
 	[
