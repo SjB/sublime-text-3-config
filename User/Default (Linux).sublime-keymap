@@ -1,57 +1,24 @@
 [
-	{ "keys": ["ctrl+.", "ctrl+c"], "command": "gs_commander_open" },
-
+	// Default functions
+	{ "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder" },
+	{ "keys": ["ctrl+k", "ctrl+p"], "command": "prompt_open_project" },
+	{ "keys": ["ctrl+k", "ctrl+q"], "command": "close_window"},
+	{ "keys": ["ctrl+k", "ctrl+w"], "command": "close_all" },
+	{ "keys": ["ctrl+k", "ctrl+r"], "command": "goto_symbol_in_project"},
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace"},
 	{ "keys": ["ctrl+j"], "command": "join_lines" },
-	{
-		"keys": ["alt+shift+right"],
-		"command": "set_layout",
-		"args":
-		{
-			"cols": [0.0, 0.33, 1.0],
-			"rows": [0.0, 1.0],
-			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-		}
-	},
-	{
-		"keys": ["alt+shift+left"],
-		"command": "set_layout",
-		"args":
-		{
-			"cols": [0.0, 0.66, 1.0],
-			"rows": [0.0, 1.0],
-			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-		}
-	},
-	{ "keys": ["g", "t"], "command": "next_view",
-	    "context":
-	    [
-	        { "key": "setting.command_mode", "operand": true },
-	        { "key": "setting.is_widget", "operand": false }
-	    ]
-	},
-	{ "keys": ["g", "T"], "command": "prev_view",
-	    "context":
-	    [
-	        { "key": "setting.command_mode", "operand": true },
-	        { "key": "setting.is_widget", "operand": false }
-	    ]
-	},
-	{
-		"keys": ["ctrl+k","ctrl+shift+g"],
-		"command": "google_search_input",
-		"context":
-		[
-			{"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true}
-		]
-	},
-	{
-		"keys": ["ctrl+k", "ctrl+shift+g"],
-		"command": "google_search_selection",
-		"context":
-		[
-			{"key": "selection_empty", "operator": "equal", "operand": false }
-		]
-	},
+
+//  using Origami package
+//	{ "keys": ["ctrl+k", "ctrl+up"], "command": "new_pane" },
+//	{ "keys": ["ctrl+k", "ctrl+shift+up"], "command": "new_pane", "args": {"move": false} },
+//	{ "keys": ["ctrl+k", "ctrl+down"], "command": "close_pane" },
+//	{ "keys": ["ctrl+k", "ctrl+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
+//	{ "keys": ["ctrl+k", "ctrl+right"], "command": "focus_neighboring_group" },
+//	{ "keys": ["ctrl+k", "ctrl+shift+left"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+//	{ "keys": ["ctrl+k", "ctrl+shift+right"], "command": "move_to_neighboring_group" },
+
+	{ "keys": ["ctrl+.", "ctrl+c"], "command": "gs_commander_open" },
+	{ "keys": ["ctrl+k", "alt+d"], "command": "open_include"},
 	{
 		"keys": ["ctrl+shift+g", "ctrl+n"],
 		"command": "google_search_selection",
@@ -68,12 +35,14 @@
             "category" : "searchcode"
         }
 	},
-	// Default functions
-	{ "keys": ["ctrl+k", "ctrl+o"], "command": "prompt_open_folder" },
-	{ "keys": ["ctrl+k", "ctrl+p"], "command": "prompt_open_project" },
-	{ "keys": ["ctrl+k", "ctrl+q"], "command": "close_window"},
-	{ "keys": ["ctrl+k", "ctrl+w"], "command": "close_all" },
-	{ "keys": ["ctrl+k", "ctrl+r"], "command": "goto_symbol_in_project"},
+	{
+		"keys": ["ctrl+shift+g", "ctrl+p"],
+		"command": "google_search_selection",
+		"args":
+        {
+            "category" : "python"
+        }
+	},
 
 	// fuzzy file nav
 	{ "keys": ["ctrl+k", "ctrl+f"], "command": "fuzzy_start_from_file" },
@@ -90,9 +59,9 @@
 	{ "keys": ["ctrl+k", "ctrl+alt+shift+c"], "command": "cleanup_file_history",      "args": {"current_project_only": false} },
 
     //SublimeSurround
-    { "keys": ["ctrl+k", "ctrl+c"], "command": "surround_change"},
-    { "keys": ["ctrl+k", "ctrl+s"], "command": "surround_selection"},
-    { "keys": ["ctrl+k", "ctrl+d"], "command": "surround_delete"},
+    { "keys": ["ctrl+,", "ctrl+c"], "command": "surround_change"},
+    { "keys": ["ctrl+,", "ctrl+s"], "command": "surround_selection"},
+    { "keys": ["ctrl+,", "ctrl+d"], "command": "surround_delete"},
 
     //Sublime MarkAndMove
     { "keys": ["ctrl+k", "ctrl+shift+tab"], "command": "mark_and_move_window_select" },
@@ -111,15 +80,13 @@
     { "keys": ["ctrl+k", "ctrl+shift+pageup"], "command": "jump_between_changes", "args": {"direction": "prev"} },
     { "keys": ["ctrl+k", "ctrl+shift+pagedown"], "command": "jump_between_changes", "args": {"direction": "next"} },
 
-	{ "keys": ["ctrl+k", "alt+d"], "command": "open_include"},
-
     // Terminal
-    { "keys": ["ctrl+,", "ctrl+shift+t"], "command": "open_terminal" },
-	{ "keys": ["ctrl+,", "ctrl+shift+alt+t"], "command": "open_terminal_project_folder" },
+    { "keys": ["ctrl+k", "ctrl+shift+t"], "command": "open_terminal" },
+	{ "keys": ["ctrl+k", "ctrl+shift+alt+t"], "command": "open_terminal_project_folder" },
 
 	// Less Tabs
-	{"keys": ["ctrl+,", "ctrl+alt+c"], "command": "less_tabs"},
-    {"keys": ["ctrl+,", "ctrl+alt+u+p"], "command": "less_tabs_close_project_unrelated"},
-    {"keys": ["ctrl+,", "ctrl+alt+u+t"], "command": "less_tabs_close_file_dir_unrelated"},
-    {"keys": ["ctrl+,", "ctrl+alt+u+d"], "command": "less_tabs_close_dir_unrelated"}
+	{"keys": ["ctrl+k", "ctrl+z"], "command": "less_tabs"},
+    {"keys": ["ctrl+k", "ctrl+alt+z"], "command": "less_tabs_close_project_unrelated"},
+    {"keys": ["ctrl+k", "ctrl+shift+z"], "command": "less_tabs_close_file_dir_unrelated"},
+    {"keys": ["ctrl+k", "ctrl+shift+alt+z"], "command": "less_tabs_close_dir_unrelated"}
 ]
