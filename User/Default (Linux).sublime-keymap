@@ -6,6 +6,7 @@
 	{ "keys": ["ctrl+k", "ctrl+w"], "command": "close_all" },
 	{ "keys": ["ctrl+k", "ctrl+r"], "command": "goto_symbol_in_project"},
 	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace"},
+	{ "keys": ["ctrl+shift+w"], "command": "close_window"},
 	{ "keys": ["ctrl+j"], "command": "join_lines" },
 
 //  using Origami package
@@ -83,6 +84,9 @@
     // Terminal
     { "keys": ["ctrl+k", "ctrl+shift+t"], "command": "open_terminal" },
 	{ "keys": ["ctrl+k", "ctrl+shift+alt+t"], "command": "open_terminal_project_folder" },
+
+	// Wind
+	{"keys": ["ctrl+k", "ctrl+shift+w"], "command": "wind" },
 
 	// Less Tabs
 	{"keys": ["ctrl+k", "ctrl+z"], "command": "less_tabs"},
